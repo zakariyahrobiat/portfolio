@@ -1,0 +1,142 @@
+*/{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{ 
+    background-color: hotpink;
+    height: 75px;
+
+}
+
+ 
+img{
+width: 100px;
+height: 100px;
+padding: 0px 0px;
+}
+
+a{
+    float: right;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 20px;
+    padding: 20px 8px;
+    color: black;
+    
+
+    
+    
+}
+
+.main{
+    padding: 20px;
+
+    display: flex;
+    gap: 40px;
+    
+
+    
+    
+}
+
+.main img{
+    float: left;
+    width:40%;
+    height:10%;
+
+}
+
+.main p{
+
+    line-height: 1.5;
+    font-size:15px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: right;
+}
+
+/* .main1{ 
+    display: flex;
+    flex: 50%;
+    gap: 20px;
+}*/
+
+.service{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    background-color: hotpink;
+    font-size: 15px;
+    
+    color: black;
+}
+
+.service  span{
+    color: black;
+    text-align: center;
+}
+.service  p{
+    text-align: center;
+    color:black;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+
+@media(max-width:900px){
+    .main p{
+
+        line-height: 1.5;
+        font-size:13px ;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        /* float: right; */
+        /* padding: 0; */
+        width: 100%;
+    }
+
+    
+
+    .main{
+        display:block;
+         /* gap: 40px; */
+         /* padding: 0px; */
+        
+    }
+    .main img{
+    /* float: left; */
+    width:100%;
+    height:100%;
+
+}
+
+ .service{ 
+     display: flex; 
+    flex-wrap: wrap; 
+    gap: 40px;
+     /* justify-content: center;  */
+    background-color: hotpink;
+    font-size: 10px;
+    position: absolute;
+    top: 105%;
+    color: black;
+}
+
+.service  span{
+    color: black;
+    /* text-align: center; */
+    font-size: 7px;
+}
+
+service  p{
+    /* text-align: center; */
+    color:black;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+}
+
+    
+    
